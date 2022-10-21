@@ -1,0 +1,20 @@
+.user-form {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  }
+  
+  .user-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .user-form input {
+    width: 90%;
+    max-width: 40rem;
+  }
+  .onClickAction{
+    color: #ccc;
+    background-color: #121111;
+
+  }
