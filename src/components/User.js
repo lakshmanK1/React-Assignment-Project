@@ -3,6 +3,8 @@ import Card from './Card/Card';
 import Button from './Button/Button';
 import './User.css'
 import ErrorModal from './Error Modal/ErrorModal';
+import Wrapper from './wrapper/Wrapper';
+
 function User(props) {
 
   const [enteredUsername, setEnteredUsername] = useState('');
@@ -44,7 +46,7 @@ function User(props) {
   };
 
   return (
-    <div>
+    <Wrapper id='helloWrap'>
      {error && (
         <ErrorModal
           title={error.title}
@@ -77,7 +79,7 @@ function User(props) {
             
         </form>
     </Card>
-    </div>
+    </Wrapper>
   )
 }
 
